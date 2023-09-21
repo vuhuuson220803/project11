@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        table,
+        th,
+        td {
+            border-collapse: collapse;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+
+
+        }
+
+        a {
+            padding-right: 20px;
+        }
+
+
+        tr,
+        td {
+            padding: 10px;
+        }
+
+        .p2 .p22 {
+            width: 100rem;
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Labels for the input fields */
+        .flex-container a {
+            flex: 0 0 120px;
+            /* Adjust the width as needed */
+            padding-right: 10px;
+            text-align: right;
+        }
+
+        /* Input fields */
+        .flex-container input {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Trường Đại Học A</h2>
+    <p>Ngôi trường của em đang học có nhiều bóng mát cây xanh và ghế đá ở sân trường, em mến yêu ngôi trường của em và
+        em đến đây để học hằng ngày.
+
+        Trường em đang học gồm có 5 dãy nhà, gồm có 4 dãy phòng học và một dãy dành cho Ban Giám hiệu nhà trường. Ngoài
+        ra, trường em đang học cũng có một khoảng sân rất rộng lớn với những hàng cây mới trồng những cũng đã khá lớn.
+        Em mong sao cây lớn thật nhanh để có thể che bóng mát cho chúng em những giờ ra chơi. Cột cờ của trường em đang
+        học nằm ở sân trường, nơi lá cờ tổ quốc tung bay trong gió. Chúng em đều được làm lễ chào cờ vào mỗi sáng thứ
+        hai mỗi tuần.</p>
+    <form action="">
+        <table class="p2">
+            <tr>
+                <td class="p22" style="background-color: rgb(18, 51, 238);">Lịch sủ thành lập</td>
+            </tr>
+            <tr>
+                <td class="p22">Sứ Mệnh</td>
+            </tr>
+            <tr>
+                <td class="p22">Giá Trị Cốt Lỗi</td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <p>Hãy để lại ý kiến và thông tin liên hệ</p>
+    <form action="">
+        <fieldset>
+            <table>
+
+                <legend>Thông Tin Cá Nhân</legend>
+                <tr>
+                    <td class="flex-container">
+                        <a>Họ Và Tên</a>
+                        <input type="text" name="ht" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="flex-container">
+                        <a>Ý Kiến</a>
+                        <input type="text" name="yk" value="" style="height: 100px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="flex-container">
+                        <a>Số Điện Thoại</a>
+                        <input type="number" name="sdt" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="flex-container">
+                        <a>Email</a>
+                        <input type="text" name="email" value="">
+                    </td>
+                </tr>
+
+
+
+
+
+
+            </table>
+            <button type="submit" style="width: 100px;">Gửi</button>
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
